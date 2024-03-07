@@ -1,5 +1,5 @@
 # DesafioPytest_SquadMaryJackson
-![Logo da Squad Mary Jackson](https://drive.google.com/file/d/14bBxLKlKcv-fOvjcuV3jDEMS-8_SPskt/view?usp=sharing)
+![Logo da Squad Mary Jackson](https://raw.githubusercontent.com/tainatravassos/img/main/Squad%20Mary%20Jackson.jpeg)
 ## Integrantes da Squad Mary Jackson:
 
 - Ana Carolina Torchia De Souza
