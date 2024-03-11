@@ -27,7 +27,7 @@ class TestFile:
 
     def test_f(self, tmpfile):
         path = tmpfile()
-    with open(path) as _f:
+    with open(os.path) as _f:
         contents = _f.read()
     assert contents == "1"
 

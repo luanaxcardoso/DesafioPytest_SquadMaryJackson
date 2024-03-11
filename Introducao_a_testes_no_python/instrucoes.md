@@ -1,6 +1,6 @@
-### Fazer testes com o Pytest
+### Exercício – Gravar um teste de unidade com o módulo unittest
 
-Etapa 1 – Adicionar um arquivo com testes para este exercício
+Etapa 1 – Adicionar um arquivo a este exercício
 
 Etapa 2 – Executar os testes e identificar a falha
 
