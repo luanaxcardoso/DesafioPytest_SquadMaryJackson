@@ -6,3 +6,5 @@ Etapa 2 – Executar os testes e explorar o relatório
 
 Etapa 3 – Mover um teste existente para um acessório
 
+Comando para executar os testes:
+# pytest -v test_advanced.py

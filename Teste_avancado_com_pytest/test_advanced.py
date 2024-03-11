@@ -13,3 +13,18 @@ def test_str_to_bool_true(string):
 @pytest.mark.parametrize("string", ['N', 'n', '0', 'NO'])
 def test_str_to_bool_false(string):
     assert str_to_bool(string) is False
+
+class TestFile:
+    def test_file_content(self, tmpfile):
+        path = tmpfile()  
+        with open(path) as _f:
+            contents = _f.read()
+        assert contents == "1"
+
+@pytest.fixture
+def tmpfile(tmpdir):
+    def write():
+        file = tmpdir.join("done")
+        file.write("1")
+        return file.strpath
+    return write
